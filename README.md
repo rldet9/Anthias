@@ -72,7 +72,7 @@ If you'd like more control over your digital signage instance, try installing it
 The tl;dr for on [Raspberry Pi OS](https://www.raspberrypi.com/software/) is:
 
 ```
-$ bash <(curl -sL https://install-anthias.srly.io)
+$ bash <(curl -sL https://raw.githubusercontent.com/rldet9/Anthias/master/bin/install.sh)
 ```
 
 You'll be prompted with the following questions:
