@@ -366,8 +366,8 @@ function main() {
         mkdir "${ANTHIAS_REPO_DIR}"
     fi
 
-    initialize_ansible
-    initialize_locales
+    #initialize_ansible
+    #initialize_locales
     #install_packages
     #install_ansible
     run_ansible_playbook
