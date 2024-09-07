@@ -368,7 +368,7 @@ function main() {
 
     initialize_ansible
     initialize_locales
-    #install_packages
+    # install_packages
     install_ansible
     run_ansible_playbook
     upgrade_docker_containers
