@@ -233,16 +233,16 @@
       - xserver-xorg
     state: absent
 
-- name: Make sure distro package of Docker is absent
-  ansible.builtin.apt:
-    name:
-      - docker
-      - docker-engine
-      - docker.io
-      - containerd
-      - runc
-      - docker-compose
-    state: absent
+#- name: Make sure distro package of Docker is absent
+#  ansible.builtin.apt:
+#    name:
+#      - docker
+#      - docker-engine
+#      - docker.io
+#      - containerd
+#      - runc
+#      - docker-compose
+#    state: absent
 
 #- name: Add docker apt key
 #  ansible.builtin.apt_key:
