@@ -264,14 +264,14 @@
     group: root
     mode: "0644"
 
-- name: Install Docker
-  ansible.builtin.apt:
-    name:
-      - docker-ce:arm64
-      - docker-ce-cli:arm64
-      - docker-compose-plugin:arm64
-    update_cache: true
-    install_recommends: false
+#- name: Install Docker
+  #ansible.builtin.apt:
+  #  name:
+  #    - docker-ce:arm64
+  #    - docker-ce-cli:arm64
+  #    - docker-compose-plugin:arm64
+  #  update_cache: true
+  #  install_recommends: false
 
 - name: Add user to docker group
   ansible.builtin.user:
